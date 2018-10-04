@@ -2,4 +2,4 @@
 
 
 
-This is a project of 561. 
+This is a project of CS561. 
