@@ -69,7 +69,7 @@ Filter By<select name='myfield' onchange='this.form.submit()'>
 </form>
             <table>
          <?php 
-$con = mysql_connect("localhost","jjm","123");
+$con = mysql_connect("localhost","root","food2018");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());

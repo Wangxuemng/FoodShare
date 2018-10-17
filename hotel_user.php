@@ -81,7 +81,7 @@ else
                 	<h3 class="p1">Profile</h3>
                     <?php
 					
-$con = mysql_connect("localhost","jjm","123");
+$con = mysql_connect("localhost","root","food2018");
 
 if (!$con)
   {

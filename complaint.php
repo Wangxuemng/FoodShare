@@ -51,7 +51,7 @@
 session_start();
 $un=$_SESSION['name'];
 
-$con = mysql_connect("localhost","jjm","123");
+$con = mysql_connect("localhost","root","food2018");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());

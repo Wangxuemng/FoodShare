@@ -54,7 +54,7 @@
 Customer Name</strong></td><td width="139"><strong>Mobile Number</strong></td><td width="132"><strong>House number</strong></td><td width="132"><strong>Street</strong></td><td width="138"><strong>Area</strong></td></tr>
                    
                    <?php
-$con = mysql_connect("localhost","jjm","123");
+$con = mysql_connect("localhost","root","food2018");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());

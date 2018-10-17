@@ -52,7 +52,7 @@
 Hotel Name</strong></td><td width="115"><strong>Email-ID</strong></td><td width="115"><strong>Street</strong></td><td width="80"><strong>Area</strong></td></tr>
                    
                    <?php
-$con = mysql_connect("localhost","jjm","123");
+$con = mysql_connect("localhost","root","food2018");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
