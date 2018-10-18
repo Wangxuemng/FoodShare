@@ -22,22 +22,8 @@ while($row = mysql_fetch_array($result))
 	$uname=$row['username'];
 	$pass=$row['password'];
 	$t=$row['type'];
-	// echo $unam;
-	// echo "---";
-	// echo $uname;
-	// echo "---";
-	// echo $password;
-	// echo "---";
-	// echo $pass;
-	// echo "---";
-	// echo $row;
-	echo strcmp($unam,$uname);
-	echo strcmp($password,$pass);
 	if((strcmp($unam,$uname)==0)&&(strcmp($password,$pass)==0))
 	{
-
-		echo "success";
-		echo $t;
 		if($t==0)
 		{
 			session_start();
@@ -45,6 +31,7 @@ while($row = mysql_fetch_array($result))
 			$_SESSION['name']=$unam;
 			$_SESSION['type']=0;
 			header("Location: admin.php");
+			// header("Location: http://www.baidu.com");
 		}
 		if($t==1)
 		{
@@ -64,7 +51,7 @@ while($row = mysql_fetch_array($result))
 	}
 	else
 	{
-		echo "fail";
+		// echo "fail";
 	}	
 }
 mysql_close($con);
